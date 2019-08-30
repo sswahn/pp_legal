@@ -95,3 +95,65 @@ ul {
   padding: 0 100px;
   width: 100%;
 }
+
+@media (max-width: 1000px) {
+  .main {
+    padding: 0 20px;
+    width: 100%;
+  }
+
+  header div {
+    background: black;
+    color: white;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main {
+    display: block;
+  }
+
+  nav {
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+
+  nav div {
+    float: none;
+    width: 100%;
+  }
+
+  a {
+    display: inline-block;
+    width: 145px;
+  }
+
+}
+
+@media (max-width: 620px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  header div {
+    font-weight: bold;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 180px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  .contact-image {
+    width: 100%;
+  }
+}
